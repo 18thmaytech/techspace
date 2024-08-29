@@ -1,0 +1,31 @@
+/* LogoPage.css */
+
+.logo-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff; /* Light blue background */
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.logo-image {
+    width: 150px; /* Adjust the size as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.logo-page h1 {
+    font-size: 2.5rem;
+    color: #333; /* Dark gray text color */
+    margin: 0;
+    padding: 0 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background for the text block */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 80%;
+    box-sizing: border-box;
+}

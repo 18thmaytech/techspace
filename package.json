@@ -1,0 +1,13 @@
+{
+  "name": "techarmy",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm run start --prefix frontend\" \"npm run start --prefix server\"",
+    "start:frontend": "npm start --prefix frontend",
+    "start:backend": "npm start --prefix server"
+  },
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "react-router-dom": "^6.26.1"
+  }
+}
